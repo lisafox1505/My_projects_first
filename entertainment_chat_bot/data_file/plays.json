@@ -1,0 +1,602 @@
+[
+    {
+        "title": "Відьмак 3: Дикий Гін",
+        "platform": "ПК, PS, Xbox, Switch",
+        "genre": "RPG",
+        "year": 2015
+    },
+    {
+        "title": "Grand Theft Auto V",
+        "platform": "Мультиплатформа",
+        "genre": "Екшн",
+        "year": 2013
+    },
+    {
+        "title": "Minecraft",
+        "platform": "Мультиплатформа",
+        "genre": "Пісочниця",
+        "year": 2011
+    },
+    {
+        "title": "Red Dead Redemption 2",
+        "platform": "PS, Xbox, ПК",
+        "genre": "Вестерн / Екшн",
+        "year": 2018
+    },
+    {
+        "title": "The Last of Us Part I",
+        "platform": "PS5, ПК",
+        "genre": "Пригоди / Драма",
+        "year": 2013
+    },
+    {
+        "title": "God of War",
+        "platform": "PS4, ПК",
+        "genre": "Екшн",
+        "year": 2018
+    },
+    {
+        "title": "Elden Ring",
+        "platform": "ПК, PS, Xbox",
+        "genre": "RPG",
+        "year": 2022
+    },
+    {
+        "title": "Cyberpunk 2077",
+        "platform": "ПК, PS, Xbox",
+        "genre": "RPG / Шутер",
+        "year": 2020
+    },
+    {
+        "title": "Baldur's Gate 3",
+        "platform": "ПК, PS5, Xbox",
+        "genre": "RPG",
+        "year": 2023
+    },
+    {
+        "title": "Hogwarts Legacy",
+        "platform": "Мультиплатформа",
+        "genre": "RPG",
+        "year": 2023
+    },
+    {
+        "title": "Spider-Man: Miles Morales",
+        "platform": "PS4, PS5, ПК",
+        "genre": "Екшн",
+        "year": 2020
+    },
+    {
+        "title": "Legend of Zelda: Breath of the Wild",
+        "platform": "Nintendo Switch",
+        "genre": "Пригоди",
+        "year": 2017
+    },
+    {
+        "title": "Super Mario Odyssey",
+        "platform": "Nintendo Switch",
+        "genre": "Платформер",
+        "year": 2017
+    },
+    {
+        "title": "Dota 2",
+        "platform": "ПК",
+        "genre": "MOBA",
+        "year": 2013
+    },
+    {
+        "title": "Counter-Strike 2",
+        "platform": "ПК",
+        "genre": "Шутер",
+        "year": 2023
+    },
+    {
+        "title": "Valorant",
+        "platform": "ПК",
+        "genre": "Шутер",
+        "year": 2020
+    },
+    {
+        "title": "Fortnite",
+        "platform": "Мультиплатформа",
+        "genre": "Королівська битва",
+        "year": 2017
+    },
+    {
+        "title": "Apex Legends",
+        "platform": "Мультиплатформа",
+        "genre": "Королівська битва",
+        "year": 2019
+    },
+    {
+        "title": "Call of Duty: Modern Warfare II",
+        "platform": "Мультиплатформа",
+        "genre": "Шутер",
+        "year": 2022
+    },
+    {
+        "title": "Overwatch 2",
+        "platform": "Мультиплатформа",
+        "genre": "Шутер",
+        "year": 2022
+    },
+    {
+        "title": "Horizon Zero Dawn",
+        "platform": "PS4, ПК",
+        "genre": "RPG / Екшн",
+        "year": 2017
+    },
+    {
+        "title": "Horizon Forbidden West",
+        "platform": "PS4, PS5, ПК",
+        "genre": "RPG / Екшн",
+        "year": 2022
+    },
+    {
+        "title": "Ghost of Tsushima",
+        "platform": "PS4, PS5, ПК",
+        "genre": "Екшн",
+        "year": 2020
+    },
+    {
+        "title": "Uncharted 4: A Thief's End",
+        "platform": "PS4, PS5, ПК",
+        "genre": "Пригоди",
+        "year": 2016
+    },
+    {
+        "title": "It Takes Two",
+        "platform": "Мультиплатформа",
+        "genre": "Кооператив",
+        "year": 2021
+    },
+    {
+        "title": "Stray",
+        "platform": "PS, ПК, Xbox",
+        "genre": "Пригоди",
+        "year": 2022
+    },
+    {
+        "title": "Resident Evil Village",
+        "platform": "Мультиплатформа",
+        "genre": "Жахи",
+        "year": 2021
+    },
+    {
+        "title": "Resident Evil 4 Remake",
+        "platform": "Мультиплатформа",
+        "genre": "Жахи",
+        "year": 2023
+    },
+    {
+        "title": "Silent Hill 2 Remake",
+        "platform": "PS5, ПК",
+        "genre": "Жахи",
+        "year": 2024
+    },
+    {
+        "title": "Alan Wake 2",
+        "platform": "ПК, PS5, Xbox",
+        "genre": "Жахи",
+        "year": 2023
+    },
+    {
+        "title": "Death Stranding",
+        "platform": "PS, ПК",
+        "genre": "Екшн / Симулятор кур'єра",
+        "year": 2019
+    },
+    {
+        "title": "Among Us",
+        "platform": "Мультиплатформа",
+        "genre": "Соціальна дедукція",
+        "year": 2018
+    },
+    {
+        "title": "Animal Crossing: New Horizons",
+        "platform": "Nintendo Switch",
+        "genre": "Симулятор життя",
+        "year": 2020
+    },
+    {
+        "title": "Genshin Impact",
+        "platform": "Мультиплатформа",
+        "genre": "RPG",
+        "year": 2020
+    },
+    {
+        "title": "Starfield",
+        "platform": "Xbox, ПК",
+        "genre": "RPG",
+        "year": 2023
+    },
+    {
+        "title": "Forza Horizon 5",
+        "platform": "Xbox, ПК",
+        "genre": "Перегони",
+        "year": 2021
+    },
+    {
+        "title": "Gran Turismo 7",
+        "platform": "PS4, PS5",
+        "genre": "Симулятор перегонів",
+        "year": 2022
+    },
+    {
+        "title": "FIFA 23",
+        "platform": "Мультиплатформа",
+        "genre": "Спорт",
+        "year": 2022
+    },
+    {
+        "title": "NBA 2K24",
+        "platform": "Мультиплатформа",
+        "genre": "Спорт",
+        "year": 2023
+    },
+    {
+        "title": "Mortal Kombat 1",
+        "platform": "Мультиплатформа",
+        "genre": "Файтинг",
+        "year": 2023
+    },
+    {
+        "title": "Tekken 8",
+        "platform": "ПК, PS5, Xbox",
+        "genre": "Файтинг",
+        "year": 2024
+    },
+    {
+        "title": "Street Fighter 6",
+        "platform": "Мультиплатформа",
+        "genre": "Файтинг",
+        "year": 2023
+    },
+    {
+        "title": "Diablo IV",
+        "platform": "Мультиплатформа",
+        "genre": "RPG",
+        "year": 2023
+    },
+    {
+        "title": "Final Fantasy VII Remake",
+        "platform": "PS, ПК",
+        "genre": "JRPG",
+        "year": 2020
+    },
+    {
+        "title": "Final Fantasy XVI",
+        "platform": "PS5, ПК",
+        "genre": "JRPG",
+        "year": 2023
+    },
+    {
+        "title": "Assassin's Creed Valhalla",
+        "platform": "Мультиплатформа",
+        "genre": "RPG",
+        "year": 2020
+    },
+    {
+        "title": "Assassin's Creed Mirage",
+        "platform": "Мультиплатформа",
+        "genre": "Екшн",
+        "year": 2023
+    },
+    {
+        "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+        "platform": "Xbox, ПК",
+        "genre": "Шутер",
+        "year": 2024
+    },
+    {
+        "title": "Metro Exodus",
+        "platform": "Мультиплатформа",
+        "genre": "Шутер",
+        "year": 2019
+    },
+    {
+        "title": "Hades",
+        "platform": "Мультиплатформа",
+        "genre": "Роуглайк",
+        "year": 2020
+    },
+    {
+        "title": "Hollow Knight",
+        "platform": "Мультиплатформа",
+        "genre": "Метроідванія",
+        "year": 2017
+    },
+    {
+        "title": "Disco Elysium",
+        "platform": "ПК, PS, Xbox, Switch",
+        "genre": "RPG",
+        "year": 2019
+    },
+    {
+        "title": "Half-Life: Alyx",
+        "platform": "VR (ПК)",
+        "genre": "Шутер",
+        "year": 2020
+    },
+    {
+        "title": "Bloodborne",
+        "platform": "PS4",
+        "genre": "RPG / Екшн",
+        "year": 2015
+    },
+    {
+        "title": "Sekiro: Shadows Die Twice",
+        "platform": "Мультиплатформа",
+        "genre": "Екшн",
+        "year": 2019
+    },
+    {
+        "title": "Dark Souls III",
+        "platform": "Мультиплатформа",
+        "genre": "RPG",
+        "year": 2016
+    },
+    {
+        "title": "Mass Effect Legendary Edition",
+        "platform": "Мультиплатформа",
+        "genre": "RPG / Шутер",
+        "year": 2021
+    },
+    {
+        "title": "Fallout 4",
+        "platform": "Мультиплатформа",
+        "genre": "RPG / Шутер",
+        "year": 2015
+    },
+    {
+        "title": "The Elder Scrolls V: Skyrim",
+        "platform": "Мультиплатформа",
+        "genre": "RPG",
+        "year": 2011
+    },
+    {
+        "title": "Doom Eternal",
+        "platform": "Мультиплатформа",
+        "genre": "Шутер",
+        "year": 2020
+    },
+    {
+        "title": "Doom (2016)",
+        "platform": "Мультиплатформа",
+        "genre": "Шутер",
+        "year": 2016
+    },
+    {
+        "title": "Wolfenstein II: The New Colossus",
+        "platform": "Мультиплатформа",
+        "genre": "Шутер",
+        "year": 2017
+    },
+    {
+        "title": "Control",
+        "platform": "Мультиплатформа",
+        "genre": "Екшн",
+        "year": 2019
+    },
+    {
+        "title": "Cuphead",
+        "platform": "Мультиплатформа",
+        "genre": "Платформер",
+        "year": 2017
+    },
+    {
+        "title": "Undertale",
+        "platform": "Мультиплатформа",
+        "genre": "RPG",
+        "year": 2015
+    },
+    {
+        "title": "Celeste",
+        "platform": "Мультиплатформа",
+        "genre": "Платформер",
+        "year": 2018
+    },
+    {
+        "title": "Dead Cells",
+        "platform": "Мультиплатформа",
+        "genre": "Роуглайк",
+        "year": 2018
+    },
+    {
+        "title": "Stardew Valley",
+        "platform": "Мультиплатформа",
+        "genre": "Симулятор ферми",
+        "year": 2016
+    },
+    {
+        "title": "Terraria",
+        "platform": "Мультиплатформа",
+        "genre": "Пісочниця",
+        "year": 2011
+    },
+    {
+        "title": "Cities: Skylines II",
+        "platform": "ПК, PS5, Xbox",
+        "genre": "Симулятор міста",
+        "year": 2023
+    },
+    {
+        "title": "The Sims 4",
+        "platform": "Мультиплатформа",
+        "genre": "Симулятор життя",
+        "year": 2014
+    },
+    {
+        "title": "Sid Meier's Civilization VI",
+        "platform": "Мультиплатформа",
+        "genre": "Стратегія",
+        "year": 2016
+    },
+    {
+        "title": "XCOM 2",
+        "platform": "Мультиплатформа",
+        "genre": "Стратегія",
+        "year": 2016
+    },
+    {
+        "title": "Persona 5 Royal",
+        "platform": "Мультиплатформа",
+        "genre": "JRPG",
+        "year": 2019
+    },
+    {
+        "title": "NieR: Automata",
+        "platform": "Мультиплатформа",
+        "genre": "Екшн / RPG",
+        "year": 2017
+    },
+    {
+        "title": "Yakuza: Like a Dragon",
+        "platform": "Мультиплатформа",
+        "genre": "RPG",
+        "year": 2020
+    },
+    {
+        "title": "Halo Infinite",
+        "platform": "Xbox, ПК",
+        "genre": "Шутер",
+        "year": 2021
+    },
+    {
+        "title": "Gears 5",
+        "platform": "Xbox, ПК",
+        "genre": "Шутер",
+        "year": 2019
+    },
+    {
+        "title": "Sea of Thieves",
+        "platform": "Xbox, ПК, PS5",
+        "genre": "Пригоди",
+        "year": 2018
+    },
+    {
+        "title": "Hi-Fi Rush",
+        "platform": "Xbox, ПК, PS5",
+        "genre": "Ритм-екшн",
+        "year": 2023
+    },
+    {
+        "title": "Super Smash Bros. Ultimate",
+        "platform": "Nintendo Switch",
+        "genre": "Файтинг",
+        "year": 2018
+    },
+    {
+        "title": "Mario Kart 8 Deluxe",
+        "platform": "Nintendo Switch",
+        "genre": "Перегони",
+        "year": 2017
+    },
+    {
+        "title": "Splatoon 3",
+        "platform": "Nintendo Switch",
+        "genre": "Шутер",
+        "year": 2022
+    },
+    {
+        "title": "Luigi's Mansion 3",
+        "platform": "Nintendo Switch",
+        "genre": "Пригоди",
+        "year": 2019
+    },
+    {
+        "title": "Fire Emblem: Three Houses",
+        "platform": "Nintendo Switch",
+        "genre": "Стратегія / RPG",
+        "year": 2019
+    },
+    {
+        "title": "Xenoblade Chronicles 3",
+        "platform": "Nintendo Switch",
+        "genre": "JRPG",
+        "year": 2022
+    },
+    {
+        "title": "Bayonetta 3",
+        "platform": "Nintendo Switch",
+        "genre": "Слешер",
+        "year": 2022
+    },
+    {
+        "title": "Metroid Dread",
+        "platform": "Nintendo Switch",
+        "genre": "Метроідванія",
+        "year": 2021
+    },
+    {
+        "title": "Dead Space (Remake)",
+        "platform": "PS5, Xbox, ПК",
+        "genre": "Жахи",
+        "year": 2023
+    },
+    {
+        "title": "Resident Evil 2 (Remake)",
+        "platform": "Мультиплатформа",
+        "genre": "Жахи",
+        "year": 2019
+    },
+    {
+        "title": "Resident Evil 3 (Remake)",
+        "platform": "Мультиплатформа",
+        "genre": "Жахи",
+        "year": 2020
+    },
+    {
+        "title": "The Evil Within 2",
+        "platform": "Мультиплатформа",
+        "genre": "Жахи",
+        "year": 2017
+    },
+    {
+        "title": "Alien: Isolation",
+        "platform": "Мультиплатформа",
+        "genre": "Жахи",
+        "year": 2014
+    },
+    {
+        "title": "Destiny 2",
+        "platform": "Мультиплатформа",
+        "genre": "Шутер",
+        "year": 2017
+    },
+    {
+        "title": "Tom Clancy's Rainbow Six Siege",
+        "platform": "Мультиплатформа",
+        "genre": "Шутер",
+        "year": 2015
+    },
+    {
+        "title": "Rocket League",
+        "platform": "Мультиплатформа",
+        "genre": "Спорт / Перегони",
+        "year": 2015
+    },
+    {
+        "title": "Fall Guys",
+        "platform": "Мультиплатформа",
+        "genre": "Платформер",
+        "year": 2020
+    },
+    {
+        "title": "Palworld",
+        "platform": "ПК, Xbox",
+        "genre": "Виживання",
+        "year": 2024
+    },
+    {
+        "title": "Helldivers 2",
+        "platform": "ПК, PS5",
+        "genre": "Шутер",
+        "year": 2024
+    },
+    {
+        "title": "Black Myth: Wukong",
+        "platform": "ПК, PS5",
+        "genre": "Екшн / RPG",
+        "year": 2024
+    }
+]

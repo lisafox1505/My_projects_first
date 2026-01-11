@@ -1,0 +1,649 @@
+[
+    {
+        "artist": "Queen",
+        "songs": [
+            {
+                "title": "Bohemian Rhapsody",
+                "year": 1975
+            },
+            {
+                "title": "Don't Stop Me Now",
+                "year": 1978
+            },
+            {
+                "title": "We Will Rock You",
+                "year": 1977
+            },
+            {
+                "title": "The Show Must Go On",
+                "year": 1991
+            }
+        ]
+    },
+    {
+        "artist": "Michael Jackson",
+        "songs": [
+            {
+                "title": "Billie Jean",
+                "year": 1982
+            },
+            {
+                "title": "Thriller",
+                "year": 1982
+            },
+            {
+                "title": "Beat It",
+                "year": 1982
+            },
+            {
+                "title": "Smooth Criminal",
+                "year": 1987
+            }
+        ]
+    },
+    {
+        "artist": "The Beatles",
+        "songs": [
+            {
+                "title": "Yesterday",
+                "year": 1965
+            },
+            {
+                "title": "Hey Jude",
+                "year": 1968
+            },
+            {
+                "title": "Let It Be",
+                "year": 1970
+            },
+            {
+                "title": "Come Together",
+                "year": 1969
+            }
+        ]
+    },
+    {
+        "artist": "Eminem",
+        "songs": [
+            {
+                "title": "Lose Yourself",
+                "year": 2002
+            },
+            {
+                "title": "The Real Slim Shady",
+                "year": 2000
+            },
+            {
+                "title": "Without Me",
+                "year": 2002
+            },
+            {
+                "title": "Stan",
+                "year": 2000
+            }
+        ]
+    },
+    {
+        "artist": "Adele",
+        "songs": [
+            {
+                "title": "Rolling in the Deep",
+                "year": 2010
+            },
+            {
+                "title": "Someone Like You",
+                "year": 2011
+            },
+            {
+                "title": "Hello",
+                "year": 2015
+            },
+            {
+                "title": "Set Fire to the Rain",
+                "year": 2011
+            }
+        ]
+    },
+    {
+        "artist": "Nirvana",
+        "songs": [
+            {
+                "title": "Smells Like Teen Spirit",
+                "year": 1991
+            },
+            {
+                "title": "Come As You Are",
+                "year": 1991
+            },
+            {
+                "title": "Heart-Shaped Box",
+                "year": 1993
+            }
+        ]
+    },
+    {
+        "artist": "Linkin Park",
+        "songs": [
+            {
+                "title": "Numb",
+                "year": 2003
+            },
+            {
+                "title": "In the End",
+                "year": 2000
+            },
+            {
+                "title": "Crawling",
+                "year": 2000
+            },
+            {
+                "title": "Faint",
+                "year": 2003
+            }
+        ]
+    },
+    {
+        "artist": "AC/DC",
+        "songs": [
+            {
+                "title": "Back In Black",
+                "year": 1980
+            },
+            {
+                "title": "Highway to Hell",
+                "year": 1979
+            },
+            {
+                "title": "Thunderstruck",
+                "year": 1990
+            },
+            {
+                "title": "T.N.T.",
+                "year": 1975
+            }
+        ]
+    },
+    {
+        "artist": "Madonna",
+        "songs": [
+            {
+                "title": "Like a Prayer",
+                "year": 1989
+            },
+            {
+                "title": "Vogue",
+                "year": 1990
+            },
+            {
+                "title": "La Isla Bonita",
+                "year": 1986
+            },
+            {
+                "title": "Hung Up",
+                "year": 2005
+            }
+        ]
+    },
+    {
+        "artist": "Rihanna",
+        "songs": [
+            {
+                "title": "Umbrella",
+                "year": 2007
+            },
+            {
+                "title": "Diamonds",
+                "year": 2012
+            },
+            {
+                "title": "We Found Love",
+                "year": 2011
+            },
+            {
+                "title": "Work",
+                "year": 2016
+            }
+        ]
+    },
+    {
+        "artist": "Coldplay",
+        "songs": [
+            {
+                "title": "Yellow",
+                "year": 2000
+            },
+            {
+                "title": "Fix You",
+                "year": 2005
+            },
+            {
+                "title": "Viva La Vida",
+                "year": 2008
+            },
+            {
+                "title": "Paradise",
+                "year": 2011
+            }
+        ]
+    },
+    {
+        "artist": "Ed Sheeran",
+        "songs": [
+            {
+                "title": "Shape of You",
+                "year": 2017
+            },
+            {
+                "title": "Perfect",
+                "year": 2017
+            },
+            {
+                "title": "Thinking Out Loud",
+                "year": 2014
+            },
+            {
+                "title": "Photograph",
+                "year": 2014
+            }
+        ]
+    },
+    {
+        "artist": "Taylor Swift",
+        "songs": [
+            {
+                "title": "Shake It Off",
+                "year": 2014
+            },
+            {
+                "title": "Blank Space",
+                "year": 2014
+            },
+            {
+                "title": "Love Story",
+                "year": 2008
+            },
+            {
+                "title": "Anti-Hero",
+                "year": 2022
+            }
+        ]
+    },
+    {
+        "artist": "The Weeknd",
+        "songs": [
+            {
+                "title": "Blinding Lights",
+                "year": 2019
+            },
+            {
+                "title": "Starboy",
+                "year": 2016
+            },
+            {
+                "title": "The Hills",
+                "year": 2015
+            },
+            {
+                "title": "Save Your Tears",
+                "year": 2020
+            }
+        ]
+    },
+    {
+        "artist": "Billie Eilish",
+        "songs": [
+            {
+                "title": "Bad Guy",
+                "year": 2019
+            },
+            {
+                "title": "Lovely",
+                "year": 2018
+            },
+            {
+                "title": "Happier Than Ever",
+                "year": 2021
+            },
+            {
+                "title": "Ocean Eyes",
+                "year": 2016
+            }
+        ]
+    },
+    {
+        "artist": "Imagine Dragons",
+        "songs": [
+            {
+                "title": "Radioactive",
+                "year": 2012
+            },
+            {
+                "title": "Demons",
+                "year": 2012
+            },
+            {
+                "title": "Believer",
+                "year": 2017
+            },
+            {
+                "title": "Thunder",
+                "year": 2017
+            }
+        ]
+    },
+    {
+        "artist": "Bruno Mars",
+        "songs": [
+            {
+                "title": "Just the Way You Are",
+                "year": 2010
+            },
+            {
+                "title": "Grenade",
+                "year": 2010
+            },
+            {
+                "title": "Uptown Funk",
+                "year": 2014
+            },
+            {
+                "title": "Locked Out of Heaven",
+                "year": 2012
+            }
+        ]
+    },
+    {
+        "artist": "Beyoncé",
+        "songs": [
+            {
+                "title": "Crazy in Love",
+                "year": 2003
+            },
+            {
+                "title": "Single Ladies",
+                "year": 2008
+            },
+            {
+                "title": "Halo",
+                "year": 2008
+            },
+            {
+                "title": "Run the World (Girls)",
+                "year": 2011
+            }
+        ]
+    },
+    {
+        "artist": "Justin Bieber",
+        "songs": [
+            {
+                "title": "Baby",
+                "year": 2010
+            },
+            {
+                "title": "Sorry",
+                "year": 2015
+            },
+            {
+                "title": "Love Yourself",
+                "year": 2015
+            },
+            {
+                "title": "Peaches",
+                "year": 2021
+            }
+        ]
+    },
+    {
+        "artist": "Katy Perry",
+        "songs": [
+            {
+                "title": "I Kissed a Girl",
+                "year": 2008
+            },
+            {
+                "title": "Firework",
+                "year": 2010
+            },
+            {
+                "title": "Roar",
+                "year": 2013
+            },
+            {
+                "title": "Dark Horse",
+                "year": 2013
+            }
+        ]
+    },
+    {
+        "artist": "Lady Gaga",
+        "songs": [
+            {
+                "title": "Poker Face",
+                "year": 2008
+            },
+            {
+                "title": "Bad Romance",
+                "year": 2009
+            },
+            {
+                "title": "Born This Way",
+                "year": 2011
+            },
+            {
+                "title": "Shallow",
+                "year": 2018
+            }
+        ]
+    },
+    {
+        "artist": "Metallica",
+        "songs": [
+            {
+                "title": "Enter Sandman",
+                "year": 1991
+            },
+            {
+                "title": "Nothing Else Matters",
+                "year": 1991
+            },
+            {
+                "title": "Master of Puppets",
+                "year": 1986
+            },
+            {
+                "title": "The Unforgiven",
+                "year": 1991
+            }
+        ]
+    },
+    {
+        "artist": "Guns N' Roses",
+        "songs": [
+            {
+                "title": "Sweet Child O' Mine",
+                "year": 1987
+            },
+            {
+                "title": "Welcome to the Jungle",
+                "year": 1987
+            },
+            {
+                "title": "November Rain",
+                "year": 1991
+            },
+            {
+                "title": "Paradise City",
+                "year": 1987
+            }
+        ]
+    },
+    {
+        "artist": "Red Hot Chili Peppers",
+        "songs": [
+            {
+                "title": "Californication",
+                "year": 1999
+            },
+            {
+                "title": "Under the Bridge",
+                "year": 1991
+            },
+            {
+                "title": "Can't Stop",
+                "year": 2002
+            },
+            {
+                "title": "Otherside",
+                "year": 1999
+            }
+        ]
+    },
+    {
+        "artist": "Daft Punk",
+        "songs": [
+            {
+                "title": "Get Lucky",
+                "year": 2013
+            },
+            {
+                "title": "One More Time",
+                "year": 2000
+            },
+            {
+                "title": "Harder, Better, Faster, Stronger",
+                "year": 2001
+            },
+            {
+                "title": "Around the World",
+                "year": 1997
+            }
+        ]
+    },
+    {
+        "artist": "Maroon 5",
+        "songs": [
+            {
+                "title": "Moves Like Jagger",
+                "year": 2011
+            },
+            {
+                "title": "Sugar",
+                "year": 2014
+            },
+            {
+                "title": "This Love",
+                "year": 2002
+            },
+            {
+                "title": "Girls Like You",
+                "year": 2017
+            }
+        ]
+    },
+    {
+        "artist": "Shakira",
+        "songs": [
+            {
+                "title": "Hips Don't Lie",
+                "year": 2005
+            },
+            {
+                "title": "Waka Waka",
+                "year": 2010
+            },
+            {
+                "title": "Whenever, Wherever",
+                "year": 2001
+            },
+            {
+                "title": "She Wolf",
+                "year": 2009
+            }
+        ]
+    },
+    {
+        "artist": "Britney Spears",
+        "songs": [
+            {
+                "title": "...Baby One More Time",
+                "year": 1998
+            },
+            {
+                "title": "Toxic",
+                "year": 2003
+            },
+            {
+                "title": "Oops!... I Did It Again",
+                "year": 2000
+            },
+            {
+                "title": "Gimme More",
+                "year": 2007
+            }
+        ]
+    },
+    {
+        "artist": "ABBA",
+        "songs": [
+            {
+                "title": "Dancing Queen",
+                "year": 1976
+            },
+            {
+                "title": "Mamma Mia",
+                "year": 1975
+            },
+            {
+                "title": "The Winner Takes It All",
+                "year": 1980
+            },
+            {
+                "title": "Gimme! Gimme! Gimme!",
+                "year": 1979
+            }
+        ]
+    },
+    {
+        "artist": "Bon Jovi",
+        "songs": [
+            {
+                "title": "Livin' on a Prayer",
+                "year": 1986
+            },
+            {
+                "title": "It's My Life",
+                "year": 2000
+            },
+            {
+                "title": "You Give Love a Bad Name",
+                "year": 1986
+            },
+            {
+                "title": "Always",
+                "year": 1994
+            }
+        ]
+    },
+    {
+        "artist": "Bee Gees",
+        "songs": [
+            {
+                "title": "Stayin' Alive",
+                "year": 1977
+            },
+            {
+                "title": "How Deep Is Your Love",
+                "year": 1977
+            },
+            {
+                "title": "Tragedy",
+                "year": 1979
+            },
+            {
+                "title": "Night Fever",
+                "year": 1977
+            }
+        ]
+    }
+]
