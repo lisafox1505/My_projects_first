@@ -1,6 +1,6 @@
 import random
 import pygame
-from functions import questions_file_open, hint_50_50, next_question, button
+from functions import questions_file_open, hint_50_50, next_question, button, hint_audience_help
 import constans as con
 
 
@@ -52,6 +52,8 @@ button50_50_state = False
 button_help_friend_state = False
 button_help_audience_state = False
 friend_hint_answer = ()
+two_most_likely_answers = []
+two_least_likely_answers = []
 answers_list_with_50_50 = []
 
 answer_time = 0
@@ -110,6 +112,8 @@ while running:
                     button_help_audience_state = False
                     user_name = ""
                     friend_hint_answer = ()
+                    two_most_likely_answers = []
+                    two_least_likely_answers = []
                     win_suma = 0
 
                 elif con.RECT_WELC_2.collidepoint(event.pos):
@@ -166,13 +170,21 @@ while running:
                 if con.HINT_BUTTON_2.collidepoint(event.pos) and button_help_friend_state == False:
                     value_help_friend = "Дзвінок другу"
                     button_help_friend_state = True
-                    # Робимо рандомну відповідь з двох варіантів відповідей
-                    two_antwort_for_help_friend = hint_50_50(correct, answers_list)
-                    friend_hint_answer = random.choice(two_antwort_for_help_friend)
+
+                    if value50_50 == "50/50" and answers_list_with_50_50:
+                        friend_hint_answer = random.choice(answers_list_with_50_50)
+                    else:
+                        two_answer_for_help = hint_50_50(correct, answers_list)
+                        friend_hint_answer = random.choice(two_answer_for_help)
 
                 if con.HINT_BUTTON_3.collidepoint(event.pos) and button_help_audience_state == False:
-                    value_help_audience = "Допомога залу"
+                    value_help_audience = "Допомога зала"
                     button_help_audience_state = True
+
+                    if value50_50 == "50/50" and answers_list_with_50_50:
+                        two_most_likely_answers = hint_audience_help(2)[0]
+                    else:
+                        two_most_likely_answers, two_least_likely_answers = hint_audience_help(4)
 
                 if con.HINT_BUTTON_4.collidepoint(event.pos):
                     state = "WELCOME"
@@ -211,6 +223,8 @@ while running:
                 button_help_friend_state = False
                 button_help_audience_state = False
                 friend_hint_answer = ()
+                two_most_likely_answers = []
+                two_least_likely_answers = []
 
         elif state == "LOSS":
             if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1 and con.RECT_QUIT.collidepoint(event.pos):
@@ -227,6 +241,8 @@ while running:
                 button_help_friend_state = False
                 button_help_audience_state = False
                 friend_hint_answer = ()
+                two_most_likely_answers = []
+                two_least_likely_answers = []
 
 # Малювання
     screen.fill(con.DARK_BLUE_BG)
@@ -324,6 +340,15 @@ while running:
             button(screen, color, button_rect, text)
             pygame.draw.rect(screen, border_color, border, border_radius=30, width=2)
 
+            if value_help_audience == "Допомога зала":
+                if not two_least_likely_answers:
+                    for percent in two_most_likely_answers:
+                        percent_text = FONT_Q.render(percent, True, con.NAME_WIN_COLOR)
+                        percent_text = percent_text.get_rect()
+                        percent_text.midright = (button_rect.right - 20, button_rect.centery)
+                        screen.blit(percent, percent_text)
+
+
         if is_answered:
             current_time = pygame.time.get_ticks()
             if current_time - answer_time > 1500:
@@ -344,6 +369,8 @@ while running:
                             value_help_friend = ""
                             value_help_audience = ""
                             friend_hint_answer = ()
+                            two_most_likely_answers = []
+                            two_least_likely_answers = []
                     else:
                         state = "WIN"
                 else:
