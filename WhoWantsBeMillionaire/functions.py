@@ -45,30 +45,37 @@ def hint_50_50(correct, answer_list_xy):
     return two_filtered_answer
 
 
-def hint_audience_help(n, answer_list_xy):
-    def hint_audience_help(correct):
-        procent_all_answers = []
-        correct_procent = random.randint(51, 70)
-        if len(answer_list_xy) == 2:
-            for i in range(2):
-                if i == correct:
-                    two_most_likely_answers.append(correct_procent)
-                else:
-                    two_most_likely_answers.append(100 - correct_procent)
-        if len(answer_list_xy) == 4:
-            first_procent = random.randint(1, 15)
-            for i in range(3):
-                if i == correct:
-                    two_most_likely_answers.append(correct_procent)
-                else:
-                    if correct_procent not in two_most_likely_answers:
-                        two_most_likely_answers.append(
-                            random.randint(0, (100 - sum(two_most_likely_answers)) - correct_procent))
-                    else:
-                        two_most_likely_answers.append(random.randint(0, (100 - sum(two_most_likely_answers))))
-            two_most_likely_answers.append(100 - sum(two_most_likely_answers))
-        return two_most_likely_answers
+def hint_audience_help(correct_index, answers_count):
+    # Обязательно инициализируем пустые списки внутри функции!
+    two_most_likely_answers = []
+    two_least_likely_answers = []
 
+    correct_procent = random.randint(51, 70)
+
+    if answers_count == 2:
+        for i in range(2):
+            if i == correct_index:
+                two_most_likely_answers.append(correct_procent)
+            else:
+                two_most_likely_answers.append(100 - correct_procent)
+
+    elif answers_count == 4:
+        remaining_procent = 100 - correct_procent
+        for i in range(4):
+            if i == correct_index:
+                two_most_likely_answers.append(correct_procent)
+            else:
+                part = random.randint(0, remaining_procent)
+                two_most_likely_answers.append(part)
+                remaining_procent -= part
+
+        if remaining_procent > 0:
+            for i in range(4):
+                if i != correct_index:
+                    two_most_likely_answers[i] += remaining_procent
+                    break
+
+    return two_most_likely_answers, two_least_likely_answers
 
 def button(screen, color, rect_xy, text):
     pygame.draw.rect(screen, color, rect_xy, border_radius=20)

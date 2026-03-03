@@ -182,9 +182,10 @@ while running:
                     button_help_audience_state = True
 
                     if value50_50 == "50/50" and answers_list_with_50_50:
-                        two_most_likely_answers = hint_audience_help(2)[0]
+                        correct_idx_50_50 = 0 if answers_list_with_50_50[0][0] == con.rect_list[correct] else 1
+                        two_most_likely_answers = hint_audience_help(correct_idx_50_50, 2)[0]
                     else:
-                        two_most_likely_answers, two_least_likely_answers = hint_audience_help(4)
+                        two_most_likely_answers, two_least_likely_answers = hint_audience_help(correct, 4)
 
                 if con.HINT_BUTTON_4.collidepoint(event.pos):
                     state = "WELCOME"
@@ -342,11 +343,9 @@ while running:
 
             if value_help_audience == "Допомога зала":
                 if not two_least_likely_answers:
-                    for percent in two_most_likely_answers:
-                        percent_text = FONT_Q.render(percent, True, con.NAME_WIN_COLOR)
-                        percent_text = percent_text.get_rect()
-                        percent_text.midright = (button_rect.right - 20, button_rect.centery)
-                        screen.blit(percent, percent_text)
+                    percent = two_most_likely_answers[current_answer_list.index((button_rect, border, text))]
+                    percent_text = FONT_Q.render(str(percent) + "%", True, con.NAME_WIN_COLOR)
+                    screen.blit(percent_text, percent_text.get_rect(midright=(button_rect.right - 20, button_rect.centery)))
 
 
         if is_answered:
