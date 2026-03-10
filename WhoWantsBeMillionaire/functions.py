@@ -50,29 +50,29 @@ def hint_audience_help(correct_index, answers_count):
     two_most_likely_answers = []
     two_least_likely_answers = []
 
-    correct_procent = random.randint(51, 70)
+    correct_percent = random.randint(51, 70)
 
     if answers_count == 2:
         for i in range(2):
             if i == correct_index:
-                two_most_likely_answers.append(correct_procent)
+                two_most_likely_answers.append(correct_percent)
             else:
-                two_most_likely_answers.append(100 - correct_procent)
+                two_most_likely_answers.append(100 - correct_percent)
 
     elif answers_count == 4:
-        remaining_procent = 100 - correct_procent
+        remaining_percent = 100 - correct_percent
         for i in range(4):
             if i == correct_index:
-                two_most_likely_answers.append(correct_procent)
+                two_most_likely_answers.append(correct_percent)
             else:
-                part = random.randint(0, remaining_procent)
+                part = random.randint(0, remaining_percent)
                 two_most_likely_answers.append(part)
-                remaining_procent -= part
+                remaining_percent -= part
 
-        if remaining_procent > 0:
+        if remaining_percent > 0:
             for i in range(4):
                 if i != correct_index:
-                    two_most_likely_answers[i] += remaining_procent
+                    two_most_likely_answers[i] += remaining_percent
                     break
 
     return two_most_likely_answers, two_least_likely_answers
