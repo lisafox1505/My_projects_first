@@ -10,8 +10,8 @@ pygame.display.set_caption("Millionaire")
 screen = pygame.display.set_mode((800, 600))
 
 pygame.mixer.init()
-pygame.mixer.music.load("music.mp3")  # Переконайся, що файл лежить поруч із кодом
-pygame.mixer.music.set_volume(0.2) # Ставимо гучність на 20%, щоб не заважала думати
+pygame.mixer.music.load("music.mp3")
+pygame.mixer.music.set_volume(0.2)
 pygame.mixer.music.play(-1)
 
 clock = pygame.time.Clock()
